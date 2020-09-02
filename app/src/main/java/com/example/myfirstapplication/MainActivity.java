@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    int size = 30;
+    int size = 20;
     public void bigger(View v){
         TextView txv;
         txv = (TextView) findViewById(R.id.txv);
