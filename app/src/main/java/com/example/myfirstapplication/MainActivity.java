@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,4 +30,6 @@ public class MainActivity extends AppCompatActivity {
         TextView text2 = (TextView) findViewById(R.id.txv);
         text2.setText(name.getText().toString());
     }
+
+
 }
