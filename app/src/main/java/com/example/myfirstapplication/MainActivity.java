@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    int size = 30;
+    int size = 20;
     public void bigger(View v){
         TextView txv;
         txv = (TextView) findViewById(R.id.txv);
@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
         TextView text2 = (TextView) findViewById(R.id.txv);
         text2.setText(name.getText().toString());
     }
+<<<<<<< HEAD
 
 
 }
+=======
+}
+>>>>>>> e5201aa03c3049c370fb5ce47535efaf0b2f5fb0
